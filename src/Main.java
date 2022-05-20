@@ -21,5 +21,12 @@ public class Main {
         //Getters and Setters
         //Implements abstract methods from Father Class (obtainArea, obtainPerimeter)
 
+        Circle circle = new Circle("Red",true,11.78);
+        Rectangle rectangle = new Rectangle("Blue",true,10.5,22.8);
+
+        circle.obtainArea();
+        circle.obtainPerimeter();
+        rectangle.obtainArea();
+        rectangle.obtainPerimeter();
     }
 }

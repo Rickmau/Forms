@@ -27,11 +27,19 @@ public class Rectangle extends Figure{
 
     @Override
     public void obtainArea() {
-        System.out.println(38.6);
+        double area;
+
+        area = getWidth() * getHeight();
+
+        System.out.println("The area of the rectangle is: " + area);
     }
 
     @Override
     public void obtainPerimeter() {
-        System.out.println(89.2);
+        double perimeter;
+
+        perimeter = getWidth() + getWidth() + getHeight() + getHeight();
+
+        System.out.println("The perimeter of the rectangle is: "+ perimeter);
     }
 }
